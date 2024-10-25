@@ -1,2 +1,2 @@
 # OBRWR
-This is the github repository for the Otpimally Biased Random Walk with Restart
+This is the github repository for the Optimally Biased Random Walk with Restart
