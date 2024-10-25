@@ -1,0 +1,7 @@
+
+ pCRY2PHR-mCherryN1 was a gift from Chandra Tucker 
+(Addgene plasmid # 26866 ; http://n2t.net/addgene:26866 ; RRID:Addgene_26866) 
+
+Rapid blue-light-mediated induction of protein interactions in living cells.
+Kennedy MJ, Hughes RM, Peteya LA, Schwartz JW, Ehlers MD, Tucker CL. Nat Methods. 
+2010 Dec;7(12):973-5. doi: 10.1038/nmeth.1524 10.1038/nmeth.1524 PubMed 21037589
