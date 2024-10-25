@@ -1,5 +1,5 @@
 export ROOT_PROJECT_PATH="/mnt/project/NODES/NODES_Project_Zenodo"
-export PATH_WORKSPACE="/mnt/project/NODES/NODES_Workspace_git"
+export PATH_WORKSPACE="/mnt/project/NODES/OBRWR"
 export PATH_OBRWR="${PATH_WORKSPACE}/obrwr_python"
 export PROJECT_PATH=$ROOT_PROJECT_PATH
 
