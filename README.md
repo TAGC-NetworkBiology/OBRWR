@@ -54,7 +54,7 @@ The docker.sh bash script defines:
     
         - It automatically mounts obrwr as a python package
     
-  - The name of the container --name
+  - The name of the container --name docker_name
     
 It then waits a bit (sleep 1s).
 
@@ -74,3 +74,10 @@ localhost:XXXX/?token=##LONGTOKEN##
 Where XXXX is defined in docker.sh.
 
 And you will have a working environment to run the different notebooks/Rmarkdown files in 03_scripts folder.
+
+## If url/token does not show 
+Then this should do it, where the docker_name is defined in docker.sh:
+```console
+foo@bar:$ sudo docker exec docker_name jupyter server list
+http://aaaaaaaaa:YYYY/?token=##LONGTOKEN##
+```
