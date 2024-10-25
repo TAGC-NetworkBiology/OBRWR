@@ -1,0 +1,1789 @@
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176589 nonzeros
+7286 rows, 51417 cols, 168950 nonzeros
+Presolve : Reductions: rows 7286(-9637); columns 51417(-12180); elements 168950(-21841)
+Solving the presolved LP
+IPX model has 7286 rows, 51417 columns and 168950 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 28
+Objective value     :  5.3018392289e-15
+HiGHS run time      :         18.63
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176589 nonzeros
+7286 rows, 51417 cols, 168950 nonzeros
+Presolve : Reductions: rows 7286(-9637); columns 51417(-12180); elements 168950(-21841)
+Solving the presolved LP
+IPX model has 7286 rows, 51417 columns and 168950 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 33
+Objective value     :  1.5736711009e-16
+HiGHS run time      :         21.19
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7288 rows, 53962 cols, 176605 nonzeros
+7277 rows, 51408 cols, 168962 nonzeros
+Presolve : Reductions: rows 7277(-9646); columns 51408(-12189); elements 168962(-21829)
+Solving the presolved LP
+IPX model has 7277 rows, 51408 columns and 168962 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 33
+Objective value     :  2.9496936507e-17
+HiGHS run time      :         22.42
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7287 rows, 53961 cols, 176607 nonzeros
+7266 rows, 51397 cols, 168986 nonzeros
+Presolve : Reductions: rows 7266(-9657); columns 51397(-12200); elements 168986(-21805)
+Solving the presolved LP
+IPX model has 7266 rows, 51397 columns and 168986 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 31
+Objective value     :  8.7287461188e-17
+HiGHS run time      :         24.41
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7286 rows, 53960 cols, 176615 nonzeros
+7264 rows, 51396 cols, 168979 nonzeros
+Presolve : Reductions: rows 7264(-9659); columns 51396(-12201); elements 168979(-21812)
+Solving the presolved LP
+IPX model has 7264 rows, 51396 columns and 168979 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 32
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         31.92
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176597 nonzeros
+7286 rows, 51417 cols, 168979 nonzeros
+Presolve : Reductions: rows 7286(-9637); columns 51417(-12180); elements 168979(-21812)
+Solving the presolved LP
+IPX model has 7286 rows, 51417 columns and 168979 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 32
+Objective value     :  2.5836073527e-16
+HiGHS run time      :         20.16
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176597 nonzeros
+7286 rows, 51417 cols, 168969 nonzeros
+Presolve : Reductions: rows 7286(-9637); columns 51417(-12180); elements 168969(-21822)
+Solving the presolved LP
+IPX model has 7286 rows, 51417 columns and 168969 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 32
+Objective value     :  6.4848696302e-17
+HiGHS run time      :         21.27
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7289 rows, 53963 cols, 176607 nonzeros
+7278 rows, 51409 cols, 168981 nonzeros
+Presolve : Reductions: rows 7278(-9645); columns 51409(-12188); elements 168981(-21810)
+Solving the presolved LP
+IPX model has 7278 rows, 51409 columns and 168981 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 33
+Objective value     :  2.6015671222e-16
+HiGHS run time      :         24.62
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7288 rows, 53962 cols, 176609 nonzeros
+7266 rows, 51397 cols, 169005 nonzeros
+Presolve : Reductions: rows 7266(-9657); columns 51397(-12200); elements 169005(-21786)
+Solving the presolved LP
+IPX model has 7266 rows, 51397 columns and 169005 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 31
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         27.13
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7287 rows, 53961 cols, 176617 nonzeros
+7261 rows, 51392 cols, 169013 nonzeros
+Presolve : Reductions: rows 7261(-9662); columns 51392(-12205); elements 169013(-21778)
+Solving the presolved LP
+IPX model has 7261 rows, 51392 columns and 169013 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 31
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         28.73
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176597 nonzeros
+7286 rows, 51417 cols, 168979 nonzeros
+Presolve : Reductions: rows 7286(-9637); columns 51417(-12180); elements 168979(-21812)
+Solving the presolved LP
+IPX model has 7286 rows, 51417 columns and 168979 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 32
+Objective value     :  2.5836073527e-16
+HiGHS run time      :         20.56
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176597 nonzeros
+7286 rows, 51417 cols, 168969 nonzeros
+Presolve : Reductions: rows 7286(-9637); columns 51417(-12180); elements 168969(-21822)
+Solving the presolved LP
+IPX model has 7286 rows, 51417 columns and 168969 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 32
+Objective value     :  6.4848696302e-17
+HiGHS run time      :         21.71
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7289 rows, 53963 cols, 176607 nonzeros
+7278 rows, 51409 cols, 168981 nonzeros
+Presolve : Reductions: rows 7278(-9645); columns 51409(-12188); elements 168981(-21810)
+Solving the presolved LP
+IPX model has 7278 rows, 51409 columns and 168981 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 33
+Objective value     :  2.6015671222e-16
+HiGHS run time      :         24.94
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7288 rows, 53962 cols, 176609 nonzeros
+7266 rows, 51397 cols, 169005 nonzeros
+Presolve : Reductions: rows 7266(-9657); columns 51397(-12200); elements 169005(-21786)
+Solving the presolved LP
+IPX model has 7266 rows, 51397 columns and 169005 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 31
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         27.65
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7287 rows, 53961 cols, 176617 nonzeros
+7261 rows, 51392 cols, 169013 nonzeros
+Presolve : Reductions: rows 7261(-9662); columns 51392(-12205); elements 169013(-21778)
+Solving the presolved LP
+IPX model has 7261 rows, 51392 columns and 169013 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 31
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         29.03
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176593 nonzeros
+7286 rows, 51417 cols, 168923 nonzeros
+Presolve : Reductions: rows 7286(-9637); columns 51417(-12180); elements 168923(-21868)
+Solving the presolved LP
+IPX model has 7286 rows, 51417 columns and 168923 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 32
+Objective value     :  7.8865685213e-16
+HiGHS run time      :         31.70
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176593 nonzeros
+7286 rows, 51417 cols, 168923 nonzeros
+Presolve : Reductions: rows 7286(-9637); columns 51417(-12180); elements 168923(-21868)
+Solving the presolved LP
+IPX model has 7286 rows, 51417 columns and 168923 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 37
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         33.51
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7286 rows, 53960 cols, 176626 nonzeros
+7277 rows, 51408 cols, 168846 nonzeros
+Presolve : Reductions: rows 7277(-9646); columns 51408(-12189); elements 168846(-21945)
+Solving the presolved LP
+IPX model has 7277 rows, 51408 columns and 168846 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 34
+Objective value     :  2.6114936368e-16
+HiGHS run time      :         23.93
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7285 rows, 53959 cols, 176628 nonzeros
+7266 rows, 51397 cols, 168589 nonzeros
+Presolve : Reductions: rows 7266(-9657); columns 51397(-12200); elements 168589(-22202)
+Solving the presolved LP
+IPX model has 7266 rows, 51397 columns and 168589 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 30
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         26.53
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176636 nonzeros
+7264 rows, 51396 cols, 168582 nonzeros
+Presolve : Reductions: rows 7264(-9659); columns 51396(-12201); elements 168582(-22209)
+Solving the presolved LP
+IPX model has 7264 rows, 51396 columns and 168582 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 30
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         39.13
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176593 nonzeros
+7286 rows, 51417 cols, 168923 nonzeros
+Presolve : Reductions: rows 7286(-9637); columns 51417(-12180); elements 168923(-21868)
+Solving the presolved LP
+IPX model has 7286 rows, 51417 columns and 168923 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 32
+Objective value     :  9.0026905342e-17
+HiGHS run time      :         28.63
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176593 nonzeros
+7285 rows, 51416 cols, 168923 nonzeros
+Presolve : Reductions: rows 7285(-9638); columns 51416(-12181); elements 168923(-21868)
+Solving the presolved LP
+IPX model has 7285 rows, 51416 columns and 168923 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 35
+Objective value     :  4.0196754394e-17
+HiGHS run time      :         32.93
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7286 rows, 53960 cols, 176626 nonzeros
+7273 rows, 51404 cols, 168864 nonzeros
+Presolve : Reductions: rows 7273(-9650); columns 51404(-12193); elements 168864(-21927)
+Solving the presolved LP
+IPX model has 7273 rows, 51404 columns and 168864 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 32
+Objective value     :  1.1339684211e-17
+HiGHS run time      :         21.48
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7285 rows, 53959 cols, 176628 nonzeros
+7265 rows, 51396 cols, 168952 nonzeros
+Presolve : Reductions: rows 7265(-9658); columns 51396(-12201); elements 168952(-21839)
+Solving the presolved LP
+IPX model has 7265 rows, 51396 columns and 168952 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 32
+Objective value     :  2.2385344292e-16
+HiGHS run time      :         21.43
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176636 nonzeros
+7261 rows, 51393 cols, 168576 nonzeros
+Presolve : Reductions: rows 7261(-9662); columns 51393(-12204); elements 168576(-22215)
+Solving the presolved LP
+IPX model has 7261 rows, 51393 columns and 168576 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 32
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         26.74
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176593 nonzeros
+7286 rows, 51417 cols, 168972 nonzeros
+Presolve : Reductions: rows 7286(-9637); columns 51417(-12180); elements 168972(-21819)
+Solving the presolved LP
+IPX model has 7286 rows, 51417 columns and 168972 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 29
+Objective value     :  1.2142877895e-16
+HiGHS run time      :        125.34
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176593 nonzeros
+7282 rows, 51413 cols, 168953 nonzeros
+Presolve : Reductions: rows 7282(-9641); columns 51413(-12184); elements 168953(-21838)
+Solving the presolved LP
+IPX model has 7282 rows, 51413 columns and 168953 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 32
+Objective value     :  6.5031186879e-17
+HiGHS run time      :         29.18
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7286 rows, 53960 cols, 176626 nonzeros
+7269 rows, 51400 cols, 168992 nonzeros
+Presolve : Reductions: rows 7269(-9654); columns 51400(-12197); elements 168992(-21799)
+Solving the presolved LP
+IPX model has 7269 rows, 51400 columns and 168992 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 30
+Objective value     :  2.7739651198e-19
+HiGHS run time      :         19.21
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7285 rows, 53959 cols, 176628 nonzeros
+7265 rows, 51397 cols, 168937 nonzeros
+Presolve : Reductions: rows 7265(-9658); columns 51397(-12200); elements 168937(-21854)
+Solving the presolved LP
+IPX model has 7265 rows, 51397 columns and 168937 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 34
+Objective value     :  2.4603754833e-18
+HiGHS run time      :         20.81
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176636 nonzeros
+7260 rows, 51392 cols, 168944 nonzeros
+Presolve : Reductions: rows 7260(-9663); columns 51392(-12205); elements 168944(-21847)
+Solving the presolved LP
+IPX model has 7260 rows, 51392 columns and 168944 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 36
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         24.62
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176593 nonzeros
+7286 rows, 51417 cols, 168972 nonzeros
+Presolve : Reductions: rows 7286(-9637); columns 51417(-12180); elements 168972(-21819)
+Solving the presolved LP
+IPX model has 7286 rows, 51417 columns and 168972 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 34
+Objective value     :  2.5361835858e-16
+HiGHS run time      :         12.84
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176593 nonzeros
+7280 rows, 51411 cols, 168947 nonzeros
+Presolve : Reductions: rows 7280(-9643); columns 51411(-12186); elements 168947(-21844)
+Solving the presolved LP
+IPX model has 7280 rows, 51411 columns and 168947 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 31
+Objective value     :  2.0749617001e-17
+HiGHS run time      :         15.25
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7286 rows, 53960 cols, 176626 nonzeros
+7267 rows, 51398 cols, 168989 nonzeros
+Presolve : Reductions: rows 7267(-9656); columns 51398(-12199); elements 168989(-21802)
+Solving the presolved LP
+IPX model has 7267 rows, 51398 columns and 168989 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 33
+Objective value     :  6.4204379263e-21
+HiGHS run time      :         18.30
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7285 rows, 53959 cols, 176628 nonzeros
+7262 rows, 51394 cols, 158193 nonzeros
+Presolve : Reductions: rows 7262(-9661); columns 51394(-12203); elements 158193(-32598)
+Solving the presolved LP
+IPX model has 7262 rows, 51394 columns and 158193 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 42
+Objective value     :  1.3021677264e-17
+HiGHS run time      :         22.70
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7260 rows, 51392 cols, 168992 nonzeros
+Presolve : Reductions: rows 7260(-9663); columns 51392(-12205); elements 168992(-21799)
+Solving the presolved LP
+IPX model has 7260 rows, 51392 columns and 168992 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 55
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         33.74
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176593 nonzeros
+7286 rows, 51417 cols, 158198 nonzeros
+Presolve : Reductions: rows 7286(-9637); columns 51417(-12180); elements 158198(-32593)
+Solving the presolved LP
+IPX model has 7286 rows, 51417 columns and 158198 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 38
+Objective value     :  5.2008257190e-16
+HiGHS run time      :         13.20
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7287 rows, 53961 cols, 176620 nonzeros
+7278 rows, 51409 cols, 168969 nonzeros
+Presolve : Reductions: rows 7278(-9645); columns 51409(-12188); elements 168969(-21822)
+Solving the presolved LP
+IPX model has 7278 rows, 51409 columns and 168969 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 34
+Objective value     :  3.0577164664e-16
+HiGHS run time      :         14.25
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7285 rows, 53959 cols, 176628 nonzeros
+7265 rows, 51396 cols, 168991 nonzeros
+Presolve : Reductions: rows 7265(-9658); columns 51396(-12201); elements 168991(-21800)
+Solving the presolved LP
+IPX model has 7265 rows, 51396 columns and 168991 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 36
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         18.04
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176636 nonzeros
+7259 rows, 51391 cols, 158205 nonzeros
+Presolve : Reductions: rows 7259(-9664); columns 51391(-12206); elements 158205(-32586)
+Solving the presolved LP
+IPX model has 7259 rows, 51391 columns and 158205 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 42
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         21.30
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7259 rows, 51391 cols, 168995 nonzeros
+Presolve : Reductions: rows 7259(-9664); columns 51391(-12206); elements 168995(-21796)
+Solving the presolved LP
+IPX model has 7259 rows, 51391 columns and 168995 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 71
+Objective value     :  2.2557448924e-02
+HiGHS run time      :         22.27
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 74
+Objective value     :  2.2674695732e-02
+HiGHS run time      :         58.25
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 74
+Objective value     :  2.2674695732e-02
+HiGHS run time      :         94.61
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176593 nonzeros
+7286 rows, 51417 cols, 158198 nonzeros
+Presolve : Reductions: rows 7286(-9637); columns 51417(-12180); elements 158198(-32593)
+Solving the presolved LP
+IPX model has 7286 rows, 51417 columns and 158198 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 36
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         12.37
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7287 rows, 53961 cols, 176620 nonzeros
+7278 rows, 51409 cols, 168969 nonzeros
+Presolve : Reductions: rows 7278(-9645); columns 51409(-12188); elements 168969(-21822)
+Solving the presolved LP
+IPX model has 7278 rows, 51409 columns and 168969 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 34
+Objective value     :  2.9321953239e-18
+HiGHS run time      :         13.71
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7285 rows, 53959 cols, 176628 nonzeros
+7263 rows, 51395 cols, 168976 nonzeros
+Presolve : Reductions: rows 7263(-9660); columns 51395(-12202); elements 168976(-21815)
+Solving the presolved LP
+IPX model has 7263 rows, 51395 columns and 168976 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 38
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         17.94
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176636 nonzeros
+7259 rows, 51391 cols, 168990 nonzeros
+Presolve : Reductions: rows 7259(-9664); columns 51391(-12206); elements 168990(-21801)
+Solving the presolved LP
+IPX model has 7259 rows, 51391 columns and 168990 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 39
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         20.65
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7257 rows, 51389 cols, 158215 nonzeros
+Presolve : Reductions: rows 7257(-9666); columns 51389(-12208); elements 158215(-32576)
+Solving the presolved LP
+IPX model has 7257 rows, 51389 columns and 158215 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 79
+Objective value     :  7.7446438790e-03
+HiGHS run time      :         24.21
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 86
+Objective value     :  7.9459237025e-03
+HiGHS run time      :         63.86
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 86
+Objective value     :  7.9459237025e-03
+HiGHS run time      :        102.74
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7291 rows, 53965 cols, 176593 nonzeros
+7281 rows, 51412 cols, 158186 nonzeros
+Presolve : Reductions: rows 7281(-9642); columns 51412(-12185); elements 158186(-32605)
+Solving the presolved LP
+IPX model has 7281 rows, 51412 columns and 158186 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 38
+Objective value     :  2.5680434683e-22
+HiGHS run time      :         12.04
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7287 rows, 53961 cols, 176620 nonzeros
+7267 rows, 51398 cols, 168992 nonzeros
+Presolve : Reductions: rows 7267(-9656); columns 51398(-12199); elements 168992(-21799)
+Solving the presolved LP
+IPX model has 7267 rows, 51398 columns and 168992 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 37
+Objective value     :  8.0840335554e-20
+HiGHS run time      :         13.23
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7285 rows, 53959 cols, 176628 nonzeros
+7262 rows, 51394 cols, 168973 nonzeros
+Presolve : Reductions: rows 7262(-9661); columns 51394(-12203); elements 168973(-21818)
+Solving the presolved LP
+IPX model has 7262 rows, 51394 columns and 168973 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 45
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         18.67
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7257 rows, 51389 cols, 168995 nonzeros
+Presolve : Reductions: rows 7257(-9666); columns 51389(-12208); elements 168995(-21796)
+Solving the presolved LP
+IPX model has 7257 rows, 51389 columns and 168995 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 44
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         21.75
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7254 rows, 51386 cols, 168990 nonzeros
+Presolve : Reductions: rows 7254(-9669); columns 51386(-12211); elements 168990(-21801)
+Solving the presolved LP
+IPX model has 7254 rows, 51386 columns and 168990 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 47
+Objective value     :  0.0000000000e+00
+HiGHS run time      :        146.46
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7292 rows, 53966 cols, 176590 nonzeros
+7280 rows, 51411 cols, 158195 nonzeros
+Presolve : Reductions: rows 7280(-9643); columns 51411(-12186); elements 158195(-32596)
+Solving the presolved LP
+IPX model has 7280 rows, 51411 columns and 158195 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 36
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         10.73
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7286 rows, 53960 cols, 176626 nonzeros
+7266 rows, 51397 cols, 168997 nonzeros
+Presolve : Reductions: rows 7266(-9657); columns 51397(-12200); elements 168997(-21794)
+Solving the presolved LP
+IPX model has 7266 rows, 51397 columns and 168997 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 38
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         12.74
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7285 rows, 53959 cols, 176628 nonzeros
+7258 rows, 51390 cols, 168978 nonzeros
+Presolve : Reductions: rows 7258(-9665); columns 51390(-12207); elements 168978(-21813)
+Solving the presolved LP
+IPX model has 7258 rows, 51390 columns and 168978 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 44
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         17.21
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7253 rows, 51385 cols, 168997 nonzeros
+Presolve : Reductions: rows 7253(-9670); columns 51385(-12212); elements 168997(-21794)
+Solving the presolved LP
+IPX model has 7253 rows, 51385 columns and 168997 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 46
+Objective value     :  1.9346037877e-18
+HiGHS run time      :         20.82
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7283 rows, 53957 cols, 176649 nonzeros
+7249 rows, 51380 cols, 169034 nonzeros
+Presolve : Reductions: rows 7249(-9674); columns 51380(-12217); elements 169034(-21757)
+Solving the presolved LP
+IPX model has 7249 rows, 51380 columns and 169034 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 49
+Objective value     :  0.0000000000e+00
+HiGHS run time      :        421.70
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7292 rows, 53966 cols, 176590 nonzeros
+7280 rows, 51411 cols, 158195 nonzeros
+Presolve : Reductions: rows 7280(-9643); columns 51411(-12186); elements 158195(-32596)
+Solving the presolved LP
+IPX model has 7280 rows, 51411 columns and 158195 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 38
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         10.87
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7286 rows, 53960 cols, 176626 nonzeros
+7263 rows, 51394 cols, 168994 nonzeros
+Presolve : Reductions: rows 7263(-9660); columns 51394(-12203); elements 168994(-21797)
+Solving the presolved LP
+IPX model has 7263 rows, 51394 columns and 168994 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 41
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         12.51
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176636 nonzeros
+7255 rows, 51387 cols, 168987 nonzeros
+Presolve : Reductions: rows 7255(-9668); columns 51387(-12210); elements 168987(-21804)
+Solving the presolved LP
+IPX model has 7255 rows, 51387 columns and 168987 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 47
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         17.19
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7250 rows, 51382 cols, 158214 nonzeros
+Presolve : Reductions: rows 7250(-9673); columns 51382(-12215); elements 158214(-32577)
+Solving the presolved LP
+IPX model has 7250 rows, 51382 columns and 158214 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 54
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         22.53
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7283 rows, 53957 cols, 176649 nonzeros
+7245 rows, 51376 cols, 169059 nonzeros
+Presolve : Reductions: rows 7245(-9678); columns 51376(-12221); elements 169059(-21732)
+Solving the presolved LP
+IPX model has 7245 rows, 51376 columns and 169059 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 49
+Objective value     :  0.0000000000e+00
+HiGHS run time      :        477.93
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7285 rows, 53959 cols, 176633 nonzeros
+7277 rows, 51408 cols, 158209 nonzeros
+Presolve : Reductions: rows 7277(-9646); columns 51408(-12189); elements 158209(-32582)
+Solving the presolved LP
+IPX model has 7277 rows, 51408 columns and 158209 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 38
+Objective value     :  1.0508715666e-18
+HiGHS run time      :         10.65
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7286 rows, 53960 cols, 176626 nonzeros
+7260 rows, 51392 cols, 168975 nonzeros
+Presolve : Reductions: rows 7260(-9663); columns 51392(-12205); elements 168975(-21816)
+Solving the presolved LP
+IPX model has 7260 rows, 51392 columns and 168975 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 44
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         15.07
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176636 nonzeros
+7252 rows, 51384 cols, 168997 nonzeros
+Presolve : Reductions: rows 7252(-9671); columns 51384(-12213); elements 168997(-21794)
+Solving the presolved LP
+IPX model has 7252 rows, 51384 columns and 168997 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 51
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         17.57
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7245 rows, 51377 cols, 169041 nonzeros
+Presolve : Reductions: rows 7245(-9678); columns 51377(-12220); elements 169041(-21750)
+Solving the presolved LP
+IPX model has 7245 rows, 51377 columns and 169041 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 59
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         23.47
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7283 rows, 53957 cols, 176649 nonzeros
+7245 rows, 51376 cols, 169059 nonzeros
+Presolve : Reductions: rows 7245(-9678); columns 51376(-12221); elements 169059(-21732)
+Solving the presolved LP
+IPX model has 7245 rows, 51376 columns and 169059 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 76
+Objective value     :  0.0000000000e+00
+HiGHS run time      :        389.15
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7285 rows, 53959 cols, 176633 nonzeros
+7275 rows, 51406 cols, 158219 nonzeros
+Presolve : Reductions: rows 7275(-9648); columns 51406(-12191); elements 158219(-32572)
+Solving the presolved LP
+IPX model has 7275 rows, 51406 columns and 158219 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 41
+Objective value     :  5.6043872224e-20
+HiGHS run time      :         11.10
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7285 rows, 53959 cols, 176628 nonzeros
+7258 rows, 51390 cols, 168977 nonzeros
+Presolve : Reductions: rows 7258(-9665); columns 51390(-12207); elements 168977(-21814)
+Solving the presolved LP
+IPX model has 7258 rows, 51390 columns and 168977 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 47
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         15.80
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7247 rows, 51379 cols, 169029 nonzeros
+Presolve : Reductions: rows 7247(-9676); columns 51379(-12218); elements 169029(-21762)
+Solving the presolved LP
+IPX model has 7247 rows, 51379 columns and 169029 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 56
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         17.93
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7283 rows, 53957 cols, 176649 nonzeros
+7245 rows, 51376 cols, 169059 nonzeros
+Presolve : Reductions: rows 7245(-9678); columns 51376(-12221); elements 169059(-21732)
+Solving the presolved LP
+IPX model has 7245 rows, 51376 columns and 169059 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 64
+Objective value     :  0.0000000000e+00
+HiGHS run time      :        390.01
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7283 rows, 53957 cols, 176649 nonzeros
+7245 rows, 51376 cols, 169059 nonzeros
+Presolve : Reductions: rows 7245(-9678); columns 51376(-12221); elements 169059(-21732)
+Solving the presolved LP
+IPX model has 7245 rows, 51376 columns and 169059 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 77
+Objective value     :  3.8037276196e+00
+HiGHS run time      :        320.25
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7285 rows, 53959 cols, 176633 nonzeros
+7264 rows, 51395 cols, 158210 nonzeros
+Presolve : Reductions: rows 7264(-9659); columns 51395(-12202); elements 158210(-32581)
+Solving the presolved LP
+IPX model has 7264 rows, 51395 columns and 158210 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 47
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         11.99
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7285 rows, 53959 cols, 176628 nonzeros
+7253 rows, 51385 cols, 158198 nonzeros
+Presolve : Reductions: rows 7253(-9670); columns 51385(-12212); elements 158198(-32593)
+Solving the presolved LP
+IPX model has 7253 rows, 51385 columns and 158198 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 54
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         13.03
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7246 rows, 51378 cols, 169036 nonzeros
+Presolve : Reductions: rows 7246(-9677); columns 51378(-12219); elements 169036(-21755)
+Solving the presolved LP
+IPX model has 7246 rows, 51378 columns and 169036 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 58
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         21.82
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7283 rows, 53957 cols, 176649 nonzeros
+7245 rows, 51376 cols, 169059 nonzeros
+Presolve : Reductions: rows 7245(-9678); columns 51376(-12221); elements 169059(-21732)
+Solving the presolved LP
+IPX model has 7245 rows, 51376 columns and 169059 nonzeros
+WARNING: Ipx: Stopped
+WARNING: Ipx: IPM       no progress
+WARNING: No progress: primal objective value       =       2.945
+WARNING: No progress: max absolute primal residual =   9.197e-09
+WARNING: No progress: max absolute   dual residual =    2.22e-16
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 74
+Objective value     :  2.9446646679e+00
+HiGHS run time      :        370.04
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 94
+Objective value     :  2.7312654892e+00
+HiGHS run time      :        409.21
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7283 rows, 53957 cols, 176649 nonzeros
+7244 rows, 51376 cols, 169038 nonzeros
+Presolve : Reductions: rows 7244(-9679); columns 51376(-12221); elements 169038(-21753)
+Solving the presolved LP
+IPX model has 7244 rows, 51376 columns and 169038 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 69
+Objective value     :  1.1829763172e-21
+HiGHS run time      :         79.71
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176639 nonzeros
+7258 rows, 51389 cols, 158216 nonzeros
+Presolve : Reductions: rows 7258(-9665); columns 51389(-12208); elements 158216(-32575)
+Solving the presolved LP
+IPX model has 7258 rows, 51389 columns and 158216 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 48
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         12.14
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176636 nonzeros
+7248 rows, 51380 cols, 169024 nonzeros
+Presolve : Reductions: rows 7248(-9675); columns 51380(-12217); elements 169024(-21767)
+Solving the presolved LP
+IPX model has 7248 rows, 51380 columns and 169024 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 54
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         15.33
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7245 rows, 51377 cols, 169041 nonzeros
+Presolve : Reductions: rows 7245(-9678); columns 51377(-12220); elements 169041(-21750)
+Solving the presolved LP
+IPX model has 7245 rows, 51377 columns and 169041 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 90
+Objective value     :  1.9915069653e-03
+HiGHS run time      :         20.64
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176636 nonzeros
+7247 rows, 51379 cols, 169024 nonzeros
+Presolve : Reductions: rows 7247(-9676); columns 51379(-12218); elements 169024(-21767)
+Solving the presolved LP
+IPX model has 7247 rows, 51379 columns and 169024 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 60
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         17.44
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7246 rows, 51378 cols, 169036 nonzeros
+Presolve : Reductions: rows 7246(-9677); columns 51378(-12219); elements 169036(-21755)
+Solving the presolved LP
+IPX model has 7246 rows, 51378 columns and 169036 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 62
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         21.88
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 62
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         60.31
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7245 rows, 51377 cols, 169041 nonzeros
+Presolve : Reductions: rows 7245(-9678); columns 51377(-12220); elements 169041(-21750)
+Solving the presolved LP
+IPX model has 7245 rows, 51377 columns and 169041 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 67
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         24.11
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7282 rows, 53956 cols, 176661 nonzeros
+7241 rows, 51372 cols, 168925 nonzeros
+Presolve : Reductions: rows 7241(-9682); columns 51372(-12225); elements 168925(-21866)
+Solving the presolved LP
+IPX model has 7241 rows, 51372 columns and 168925 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 57
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         11.84
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176636 nonzeros
+7247 rows, 51379 cols, 169024 nonzeros
+Presolve : Reductions: rows 7247(-9676); columns 51379(-12218); elements 169024(-21767)
+Solving the presolved LP
+IPX model has 7247 rows, 51379 columns and 169024 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 59
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         14.42
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7283 rows, 53957 cols, 176649 nonzeros
+7244 rows, 51375 cols, 169056 nonzeros
+Presolve : Reductions: rows 7244(-9679); columns 51375(-12222); elements 169056(-21735)
+Solving the presolved LP
+IPX model has 7244 rows, 51375 columns and 169056 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 89
+Objective value     :  5.4473983076e+00
+HiGHS run time      :        384.00
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7245 rows, 51377 cols, 169041 nonzeros
+Presolve : Reductions: rows 7245(-9678); columns 51377(-12220); elements 169041(-21750)
+Solving the presolved LP
+IPX model has 7245 rows, 51377 columns and 169041 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 72
+Objective value     :  1.0540817313e-20
+HiGHS run time      :         23.16
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7283 rows, 53957 cols, 176649 nonzeros
+7243 rows, 51375 cols, 169046 nonzeros
+Presolve : Reductions: rows 7243(-9680); columns 51375(-12222); elements 169046(-21745)
+Solving the presolved LP
+IPX model has 7243 rows, 51375 columns and 169046 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 85
+Objective value     :  1.6908285957e+00
+HiGHS run time      :         21.02
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7244 rows, 51376 cols, 169038 nonzeros
+Presolve : Reductions: rows 7244(-9679); columns 51376(-12221); elements 169038(-21753)
+Solving the presolved LP
+IPX model has 7244 rows, 51376 columns and 169038 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 96
+Objective value     :  5.5180196672e-01
+HiGHS run time      :         23.11
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7281 rows, 53955 cols, 176663 nonzeros
+7241 rows, 51372 cols, 168925 nonzeros
+Presolve : Reductions: rows 7241(-9682); columns 51372(-12225); elements 168925(-21866)
+Solving the presolved LP
+IPX model has 7241 rows, 51372 columns and 168925 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 61
+Objective value     :  2.8652058969e-19
+HiGHS run time      :         13.48
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7244 rows, 51376 cols, 169038 nonzeros
+Presolve : Reductions: rows 7244(-9679); columns 51376(-12221); elements 169038(-21753)
+Solving the presolved LP
+IPX model has 7244 rows, 51376 columns and 169038 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 98
+Objective value     :  9.1745785040e-01
+HiGHS run time      :         22.05
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176636 nonzeros
+7247 rows, 51379 cols, 169024 nonzeros
+Presolve : Reductions: rows 7247(-9676); columns 51379(-12218); elements 169024(-21767)
+Solving the presolved LP
+IPX model has 7247 rows, 51379 columns and 169024 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 61
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         13.09
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176636 nonzeros
+7247 rows, 51379 cols, 169024 nonzeros
+Presolve : Reductions: rows 7247(-9676); columns 51379(-12218); elements 169024(-21767)
+Solving the presolved LP
+IPX model has 7247 rows, 51379 columns and 169024 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 65
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         15.20
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7284 rows, 53958 cols, 176641 nonzeros
+7247 rows, 51379 cols, 169029 nonzeros
+Presolve : Reductions: rows 7247(-9676); columns 51379(-12218); elements 169029(-21762)
+Solving the presolved LP
+IPX model has 7247 rows, 51379 columns and 169029 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 77
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         22.19
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 77
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         55.91
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7280 rows, 53954 cols, 176671 nonzeros
+7241 rows, 51372 cols, 168925 nonzeros
+Presolve : Reductions: rows 7241(-9682); columns 51372(-12225); elements 168925(-21866)
+Solving the presolved LP
+IPX model has 7241 rows, 51372 columns and 168925 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 67
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         12.69
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7283 rows, 53957 cols, 176649 nonzeros
+7243 rows, 51375 cols, 169035 nonzeros
+Presolve : Reductions: rows 7243(-9680); columns 51375(-12222); elements 169035(-21756)
+Solving the presolved LP
+IPX model has 7243 rows, 51375 columns and 169035 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 100
+Objective value     :  9.2363411924e+00
+HiGHS run time      :         73.79
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7285 rows, 53959 cols, 176638 nonzeros
+7247 rows, 51379 cols, 169025 nonzeros
+Presolve : Reductions: rows 7247(-9676); columns 51379(-12218); elements 169025(-21766)
+Solving the presolved LP
+IPX model has 7247 rows, 51379 columns and 169025 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 97
+Objective value     :  2.0690897920e+00
+HiGHS run time      :         19.11
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7282 rows, 53956 cols, 176649 nonzeros
+7247 rows, 51378 cols, 158208 nonzeros
+Presolve : Reductions: rows 7247(-9676); columns 51378(-12219); elements 158208(-32583)
+Solving the presolved LP
+IPX model has 7247 rows, 51378 columns and 158208 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 76
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         17.06
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 75
+Objective value     :  0.0000000000e+00
+HiGHS run time      :         47.25
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7282 rows, 53956 cols, 176649 nonzeros
+7247 rows, 51378 cols, 158210 nonzeros
+Presolve : Reductions: rows 7247(-9676); columns 51378(-12219); elements 158210(-32581)
+Solving the presolved LP
+IPX model has 7247 rows, 51378 columns and 158210 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 99
+Objective value     :  7.2343884470e-01
+HiGHS run time      :         18.98
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7282 rows, 53956 cols, 176649 nonzeros
+7247 rows, 51378 cols, 158210 nonzeros
+Presolve : Reductions: rows 7247(-9676); columns 51378(-12219); elements 158210(-32581)
+Solving the presolved LP
+IPX model has 7247 rows, 51378 columns and 158210 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 101
+Objective value     :  1.4862326379e-01
+HiGHS run time      :         18.85
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7280 rows, 53954 cols, 176671 nonzeros
+7241 rows, 51372 cols, 168925 nonzeros
+Presolve : Reductions: rows 7241(-9682); columns 51372(-12225); elements 168925(-21866)
+Solving the presolved LP
+IPX model has 7241 rows, 51372 columns and 168925 nonzeros
+WARNING: Ipx: Stopped
+WARNING: Ipx: IPM       no progress
+WARNING: No progress: primal objective value       =       24.74
+WARNING: No progress: max absolute primal residual =    1.49e-08
+WARNING: No progress: max absolute   dual residual =    2.22e-16
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 33
+Objective value     :  2.4736707701e+01
+HiGHS run time      :          3.01
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+WARNING: Ipx: Stopped
+WARNING: Ipx: IPM       no progress
+WARNING: No progress: primal objective value       =       18.93
+WARNING: No progress: max absolute primal residual =   2.678e-09
+WARNING: No progress: max absolute   dual residual =    1.13e-14
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 38
+Objective value     :  1.8926156598e+01
+HiGHS run time      :          8.07
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+WARNING: Ipx: Stopped
+WARNING: Ipx: IPM       no progress
+WARNING: No progress: primal objective value       =       18.93
+WARNING: No progress: max absolute primal residual =   2.678e-09
+WARNING: No progress: max absolute   dual residual =    1.13e-14
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 38
+Objective value     :  1.8926156598e+01
+HiGHS run time      :         13.14
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7283 rows, 53957 cols, 176649 nonzeros
+7244 rows, 51375 cols, 169056 nonzeros
+Presolve : Reductions: rows 7244(-9679); columns 51375(-12222); elements 169056(-21735)
+Solving the presolved LP
+IPX model has 7244 rows, 51375 columns and 169056 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 99
+Objective value     :  1.7364197741e+01
+HiGHS run time      :        224.57
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7281 rows, 53955 cols, 176657 nonzeros
+7244 rows, 51375 cols, 158216 nonzeros
+Presolve : Reductions: rows 7244(-9679); columns 51375(-12222); elements 158216(-32575)
+Solving the presolved LP
+IPX model has 7244 rows, 51375 columns and 158216 nonzeros
+WARNING: Ipx: Stopped
+WARNING: Ipx: IPM       no progress
+WARNING: No progress: primal objective value       =       24.91
+WARNING: No progress: max absolute primal residual =    1.49e-08
+WARNING: No progress: max absolute   dual residual =   3.287e-16
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 34
+Objective value     :  2.4909449955e+01
+HiGHS run time      :          3.32
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 108
+Objective value     :  1.2019580603e+01
+HiGHS run time      :         36.03
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7280 rows, 53954 cols, 176671 nonzeros
+7241 rows, 51372 cols, 168925 nonzeros
+Presolve : Reductions: rows 7241(-9682); columns 51372(-12225); elements 168925(-21866)
+Solving the presolved LP
+IPX model has 7241 rows, 51372 columns and 168925 nonzeros
+WARNING: Ipx: Stopped
+WARNING: Ipx: IPM       no progress
+WARNING: No progress: primal objective value       =       23.65
+WARNING: No progress: max absolute primal residual =    1.49e-08
+WARNING: No progress: max absolute   dual residual =   3.348e-13
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 33
+Objective value     :  2.3647911882e+01
+HiGHS run time      :          3.03
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 106
+Objective value     :  9.5695443692e+00
+HiGHS run time      :         34.83
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7280 rows, 53954 cols, 176671 nonzeros
+7241 rows, 51372 cols, 168925 nonzeros
+Presolve : Reductions: rows 7241(-9682); columns 51372(-12225); elements 168925(-21866)
+Solving the presolved LP
+IPX model has 7241 rows, 51372 columns and 168925 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 95
+Objective value     :  8.5218235804e+00
+HiGHS run time      :         18.53
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7279 rows, 53953 cols, 176679 nonzeros
+7242 rows, 51372 cols, 169064 nonzeros
+Presolve : Reductions: rows 7242(-9681); columns 51372(-12225); elements 169064(-21727)
+Solving the presolved LP
+IPX model has 7242 rows, 51372 columns and 169064 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 113
+Objective value     :  1.7593895477e+01
+HiGHS run time      :        232.45
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 117
+Objective value     :  1.7593895583e+01
+HiGHS run time      :        267.24
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 117
+Objective value     :  1.7593895583e+01
+HiGHS run time      :        301.97
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7281 rows, 53955 cols, 176657 nonzeros
+7244 rows, 51374 cols, 169042 nonzeros
+Presolve : Reductions: rows 7244(-9679); columns 51374(-12223); elements 169042(-21749)
+Solving the presolved LP
+IPX model has 7244 rows, 51374 columns and 169042 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 102
+Objective value     :  2.4129304318e+01
+HiGHS run time      :        229.35
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7279 rows, 53953 cols, 176679 nonzeros
+7242 rows, 51372 cols, 169064 nonzeros
+Presolve : Reductions: rows 7242(-9681); columns 51372(-12225); elements 169064(-21727)
+Solving the presolved LP
+IPX model has 7242 rows, 51372 columns and 169064 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 107
+Objective value     :  2.0375545878e+01
+HiGHS run time      :        227.73
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7279 rows, 53953 cols, 176679 nonzeros
+7242 rows, 51372 cols, 169064 nonzeros
+Presolve : Reductions: rows 7242(-9681); columns 51372(-12225); elements 169064(-21727)
+Solving the presolved LP
+IPX model has 7242 rows, 51372 columns and 169064 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 108
+Objective value     :  1.8975739587e+01
+HiGHS run time      :        230.10
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 119
+Objective value     :  1.8975740020e+01
+HiGHS run time      :        262.01
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 119
+Objective value     :  1.8975740020e+01
+HiGHS run time      :        293.94
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7279 rows, 53953 cols, 176679 nonzeros
+7242 rows, 51372 cols, 169064 nonzeros
+Presolve : Reductions: rows 7242(-9681); columns 51372(-12225); elements 169064(-21727)
+Solving the presolved LP
+IPX model has 7242 rows, 51372 columns and 169064 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 113
+Objective value     :  1.8267305470e+01
+HiGHS run time      :        228.79
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 122
+Objective value     :  1.8267305776e+01
+HiGHS run time      :        260.42
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 122
+Objective value     :  1.8267305776e+01
+HiGHS run time      :        292.08
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7279 rows, 53953 cols, 176679 nonzeros
+7242 rows, 51372 cols, 169064 nonzeros
+Presolve : Reductions: rows 7242(-9681); columns 51372(-12225); elements 169064(-21727)
+Solving the presolved LP
+IPX model has 7242 rows, 51372 columns and 169064 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 117
+Objective value     :  2.7299355905e+01
+HiGHS run time      :        228.59
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7279 rows, 53953 cols, 176679 nonzeros
+7242 rows, 51372 cols, 169064 nonzeros
+Presolve : Reductions: rows 7242(-9681); columns 51372(-12225); elements 169064(-21727)
+Solving the presolved LP
+IPX model has 7242 rows, 51372 columns and 169064 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 109
+Objective value     :  3.3267383869e+01
+HiGHS run time      :        226.36
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 110
+Objective value     :  3.3267383951e+01
+HiGHS run time      :        263.93
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 110
+Objective value     :  3.3267383951e+01
+HiGHS run time      :        301.53
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7279 rows, 53953 cols, 176679 nonzeros
+7242 rows, 51372 cols, 169064 nonzeros
+Presolve : Reductions: rows 7242(-9681); columns 51372(-12225); elements 169064(-21727)
+Solving the presolved LP
+IPX model has 7242 rows, 51372 columns and 169064 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 112
+Objective value     :  3.0852104236e+01
+HiGHS run time      :        225.74
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7279 rows, 53953 cols, 176679 nonzeros
+7242 rows, 51372 cols, 169064 nonzeros
+Presolve : Reductions: rows 7242(-9681); columns 51372(-12225); elements 169064(-21727)
+Solving the presolved LP
+IPX model has 7242 rows, 51372 columns and 169064 nonzeros
+WARNING: Ipx: IPM       imprecise
+WARNING: Unwelcome IPX status of Unknown: basis is not valid; solution is valid; run_crossover is "off"
+Model   status      : Unknown
+IPM       iterations: 121
+Objective value     :  2.9134334072e+01
+HiGHS run time      :        233.81
+Solving LP without presolve or with basis
+IPX model has 16923 rows, 63597 columns and 190791 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 131
+Objective value     :  2.9134333949e+01
+HiGHS run time      :        269.14
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7279 rows, 53953 cols, 176679 nonzeros
+7242 rows, 51372 cols, 169064 nonzeros
+Presolve : Reductions: rows 7242(-9681); columns 51372(-12225); elements 169064(-21727)
+Solving the presolved LP
+IPX model has 7242 rows, 51372 columns and 169064 nonzeros
+Ipx: IPM       optimal
+Model   status      : Optimal
+IPM       iterations: 127
+Objective value     :  2.8111474573e+01
+HiGHS run time      :        224.40
+Writing the solution to ./tmp/test.sol
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7286 rows, 53960 cols, 176636 nonzeros
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Presolving model
+13563 rows, 60237 cols, 180711 nonzeros
+7286 rows, 53960 cols, 176637 nonzeros

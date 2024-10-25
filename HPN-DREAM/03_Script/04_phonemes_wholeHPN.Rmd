@@ -1,0 +1,83 @@
+---
+title: "phonemes_wholeHPN"
+author: "Jeremie Perrin"
+date: "2024-03-21"
+output: html_document
+---
+```{r pressure, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(edgeR)
+library(PHONEMeS)
+library(decoupleR)
+library(tidyverse)
+```
+
+```{r}
+PKN <- phonemesPKN
+cell_lines = list("BT549","MCF7","UACC812")
+activators = list( 'NRG1','EGF', 'FGF1', 'HGF', 'IGF1', 'INS')
+for (cell in cell_lines) {
+  for (activator in activators) {
+    if (!((activator=="NRG1" | activator =="IGF1")&(cell=="BT549"))){
+    hpn.data <- read.delim(paste("../00_InputData/stimuli/top_tables/",cell,'_',activator,"_toptable.tsv",sep=""))
+    top_pps <- hpn.data %>% 
+      dplyr::filter(ID %in% phonemesPKN$target) %>%
+      dplyr::filter(adj.P.Val < 5e-02) 
+    
+    deregulated_pps <- top_pps$t
+    names(deregulated_pps) <- top_pps$ID
+    
+    deregulated_kinases_man <- c(X = 1)
+    names(deregulated_kinases_man) <- activator
+    
+    decoupler_network <- phonemesPKN %>% 
+    dplyr::rename("mor" = interaction) %>% 
+      tibble::add_column("likelihood" = 1)
+
+    decoupler_input <- hpn.data %>% 
+      dplyr::filter(ID %in% decoupler_network$target) %>%
+      tibble::column_to_rownames("ID") %>% 
+      dplyr::select(t)
+
+    decoupler_network <- decoupleR::intersect_regulons(mat = decoupler_input, 
+                                                       network = decoupler_network, 
+                                                       .source = source, 
+                                                       .target = target, 
+                                                       minsize = 5)
+
+    correlated_regulons <- decoupleR::check_corr(decoupler_network) %>% 
+      dplyr::filter(correlation >= 0.9)
+
+    decoupler_network <- decoupler_network %>% 
+      dplyr::filter(!source %in% correlated_regulons$source.2)
+
+    kinase_activity <- decoupleR::run_mlm(mat = decoupler_input, 
+                                          network = decoupler_network)
+
+    nc_kinases <- kinase_activity %>% 
+      dplyr::filter(base::abs(score) <= 0.5) %>% 
+      dplyr::pull(source)
+    
+    carnival_options <- PHONEMeS::default_carnival_options(solver = "cbc")
+    carnival_options$solverPath <- "/usr/bin/cbc"
+    
+    carnival_options$outputFolder <- "/home/rstudio/work/05_Output/phonemes_whole"
+    carnival_options$workdir <- "/home/rstudio/work/05_Output/phonemes_whole"
+    
+    carnival_options$threads <- 13
+    carnival_options$timelimit <- carnival_options$threads*3600
+    
+    phonemes_result <- PHONEMeS::run_phonemes(inputObj = deregulated_kinases_man, 
+                                          measObj = deregulated_pps, 
+                                          rmNodes = nc_kinases,
+                                          netObj = phonemesPKN,
+                                          carnival_options = carnival_options)
+    phonemes_result_pps <- PHONEMeS::reattach_psites(phonemes_result)
+    readr::write_csv(phonemes_result_pps$res$weightedSIF, paste("../05_Output/phonemes_whole/",cell,"_",activator,"_SIF.csv",sep = ""))
+    phonemes_result_protein <- get_protein_network(phonemes_result)
+    readr::write_csv(phonemes_result_protein$weightedSIF, paste("../05_Output/phonemes_whole/",cell,"_",activator,"_protSIF.csv",sep = ""))
+    } 
+  }
+}
+
+```

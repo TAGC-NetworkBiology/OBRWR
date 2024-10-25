@@ -1,0 +1,35 @@
+---
+title: "AKT_sensitive"
+author: "Jeremie Perrin"
+date: "2024-02-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(edgeR)
+```
+
+```{r counts}
+cell_lines = list("BT20","BT549","MCF7","UACC812")
+activators = list('EGF', 'FGF1', 'HGF', 'IGF1', 'INS', 'NRG1')
+for (cell in cell_lines) {
+  for (activator in activators) {
+    counts <- read.delim(paste("../00_InputData/stimuli/",cell,"_",activator,".tsv", sep=""))
+    row.names(counts) <- make.names(counts$X,unique=TRUE)
+    counts <- counts[-c(1)]
+    names <- colnames(counts)
+    time <- strsplit(names, '.',fixed=TRUE)
+    group <- unlist(lapply(time,\(x) x[1]))
+    mm <- model.matrix(~0 + group)
+    fit <- lmFit(counts, mm)
+    contr <- makeContrasts(contrasts = paste(paste("group",group[length(group)],sep=""),"-",paste("group",group[1],sep=""),sep=" "), levels = colnames(coef(fit)))
+    tmp <- contrasts.fit(fit, contr)
+    tmp <- eBayes(tmp)
+    top.table <- topTable(tmp, sort.by = "P", n = Inf)
+    hpn.data <- top.table
+    hpn.data$ID <- row.names(top.table)
+    write.table(hpn.data,paste("../00_InputData/stimuli/top_tables_novoom/",cell,'_',activator,"_toptable.tsv",sep=""),quote=FALSE,sep='\t',row.names = FALSE)
+  }
+}
+```

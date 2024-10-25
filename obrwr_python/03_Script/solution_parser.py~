@@ -1,0 +1,16 @@
+def parse_solution(filename):
+    f = open(filename)
+    s = f.readline()
+    while s[:9] != "# Columns":
+        s = f.readline()
+    d = {}
+    N = int(s[9:])
+    for i in range(N):
+        s = f.readline()
+        l = s.split("(")
+        l = l[0] + l[1].split(")")
+        if not l[0] is in d.keys():
+            d[l[0]] = {int(l[1]) : float(l[2])}
+        else:
+            d[l[0]][int(l[1])] = float(l[2])
+    return d

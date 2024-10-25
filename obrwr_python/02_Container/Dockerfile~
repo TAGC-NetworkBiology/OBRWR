@@ -1,0 +1,25 @@
+FROM jupyter/base-notebook:latest
+USER root
+RUN apt update
+RUN apt install -y git
+RUN git clone https://github.com/ERGO-Code/HiGHS/
+WORKDIR /home/jovyan/HiGHS
+RUN apt install -y cmake
+RUN apt install -y build-essential
+RUN mkdir build && cd build && cmake ..
+WORKDIR /home/jovyan/HiGHS/build
+RUN make
+RUN make install
+RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/jovyan/HiGHS/build/lib/
+WORKDIR /home/jovyan/HiGHS/src/interfaces/highspy
+RUN pip install ./
+WORKDIR /home/jovyan
+RUN ldconfig
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
+COPY ../03_Script/obrwr.py obrwr.py
+RUN mv obrwr.py /opt/conda/lib/python3.10/site-packages/
+WORKDIR /opt/conda/lib/python3.10/site-packages
+RUN mkdir obrwr && mv obrwr.py obrwr
+WORKDIR /home/jovyan
+USER 1000

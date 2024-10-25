@@ -1,0 +1,10 @@
+pushd ..
+source initrc
+popd
+export PROJECT_PATH=$PROJECT_PATH"/HPN-DREAM"
+rm 00_InputData
+rm 01_Reference
+rm 05_Output
+ln -sf $PROJECT_PATH"/00_InputData" 00_InputData
+ln -sf $PROJECT_PATH"/01_Reference" 01_Reference
+ln -sf $PROJECT_PATH"/05_Output" 05_Output

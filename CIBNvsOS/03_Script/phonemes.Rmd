@@ -1,0 +1,269 @@
+---
+title: "Phonemes"
+author: "Jeremie Perrin"
+date: "2023-11-03"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(edgeR)
+library(PHONEMeS)
+```
+
+## PHONEMeS
+
+
+```{r counts}
+counts <- read.delim("~/work/00_InputData/3old+4old_IgGpos_Normed_Log_MLMcorrected.tsv", row.names = 1)
+#counts <- 2**counts
+rownames(counts) <- make.names(counts[,1],unique=TRUE)
+counts = counts[2:19]
+```
+
+```{r DGE}
+
+d0 <- DGEList(counts)
+d0 <- calcNormFactors(d0)
+d0
+```
+```{r groups}
+
+snames <- colnames(counts)
+time <- strsplit(snames, '_',fixed=TRUE)
+group <- unlist(lapply(time,\(x) x[1]))
+group <- strsplit(group, '.',fixed=TRUE)
+group <- unlist(lapply(group,\(x) paste(x[2], x[3],sep='')))
+```
+
+```{r}
+mm <- model.matrix(~0 + group)
+```
+
+```{r}
+y <- voom(d0, mm, plot = T)
+```
+```{r}
+fit <- lmFit(y, mm)
+contr <- makeContrasts(group4old20 - group4old0, levels = colnames(coef(fit)))
+tmp <- contrasts.fit(fit, contr)
+tmp <- eBayes(tmp)
+top.table <- topTable(tmp, sort.by = "P", n = Inf)
+top.table
+```
+
+```{r}
+os.data <- top.table
+os.data$ID <- row.names( top.table)
+write.table(os.data,"../05_Output/OS/toptable_phon_OS.tsv",quote=FALSE,sep='\t',row.names = FALSE)
+os.data
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+
+
+```{r pressure, echo=FALSE}
+library(PHONEMeS)
+library(decoupleR)
+library(tidyverse)
+```
+```{r}
+PKN <- phonemesPKN
+```
+
+
+```{r}
+top_pps <- os.data %>% 
+  dplyr::filter(ID %in% phonemesPKN$target) %>%
+  dplyr::filter(adj.P.Val < 5e-02) 
+
+write.table(top_pps,"../05_Output/OS/deregpps.tsv",quote=FALSE,sep='\t',row.names = FALSE)
+
+deregulated_pps <- top_pps$t
+names(deregulated_pps) <- top_pps$ID
+```
+```{r}
+deregulated_kinases_man <- c(	SRC = 1)
+```
+
+```{r}
+decoupler_network <- phonemesPKN %>% 
+  dplyr::rename("mor" = interaction) %>% 
+  tibble::add_column("likelihood" = 1)
+
+decoupler_input <- os.data %>% 
+  dplyr::filter(ID %in% decoupler_network$target) %>%
+  dplyr::select(t)
+
+decoupler_network <- decoupleR::intersect_regulons(mat = decoupler_input, 
+                                                   network = decoupler_network, 
+                                                   .source = source, 
+                                                   .target = target, 
+                                                   minsize = 5)
+
+correlated_regulons <- decoupleR::check_corr(decoupler_network) %>% 
+  dplyr::filter(correlation >= 0.9)
+
+decoupler_network <- decoupler_network %>% 
+  dplyr::filter(!source %in% correlated_regulons$source.2)
+
+kinase_activity <- decoupleR::run_mlm(mat = decoupler_input, 
+                                      network = decoupler_network)
+
+nc_kinases <- kinase_activity %>% 
+  dplyr::filter(base::abs(score) <= 0.5) %>% 
+  dplyr::filter(source != 'SRC') %>%
+  dplyr::pull(source)
+
+```
+
+
+```{r}
+carnival_options <- PHONEMeS::default_carnival_options(solver = "cbc")
+carnival_options$solverPath <- "/usr/bin/cbc"
+carnival_options$timelimit <- 7200
+carnival_options$outputFolder <- "/home/rstudio/work/05_Output/OS"
+carnival_options$workdir <- "/home/rstudio/work/05_Output/OS"
+carnival_options$threads <- 6
+
+```
+
+```{r}
+phonemes_result <- PHONEMeS::run_phonemes(inputObj = deregulated_kinases_man, 
+                                          measObj = deregulated_pps, 
+                                          rmNodes = nc_kinases,
+                                          netObj = PKN,
+                                          carnival_options = carnival_options)
+```
+```{r}
+phonemes_result_pps <- PHONEMeS::reattach_psites(phonemes_result)
+```
+
+```{r}
+readr::write_csv(phonemes_result$res$weightedSIF, "../05_Output/OS/PHONEMeS_OS_20_0_SIF.csv")
+```
+
+```{r}
+phonemes_result_protein <- get_protein_network(phonemes_result)
+```
+```{r}
+readr::write_csv(phonemes_result_protein$weightedSIF, "../05_Output/PHONEMeS_protOS_20_0_SIF.csv")
+```
+
+CIBN
+--
+
+```{r}
+fit <- lmFit(y, mm)
+contr <- makeContrasts(group3old20 - group3old0, levels = colnames(coef(fit)))
+tmp <- contrasts.fit(fit, contr)
+tmp <- eBayes(tmp)
+top.table <- topTable(tmp, sort.by = "P", n = Inf)
+top.table
+```
+
+```{r}
+cibn.data <- top.table
+cibn.data$ID <- row.names( top.table)
+write.table(cibn.data,"../05_Output/CIBN/toptable_phon_CIBN.tsv",quote=FALSE,sep='\t',row.names = FALSE)
+cibn.data
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+
+
+```{r pressure, echo=FALSE}
+library(PHONEMeS)
+library(decoupleR)
+library(tidyverse)
+```
+```{r}
+PKN <- phonemesPKN
+```
+```{r}
+cibn.data <- read.delim('../05_Output/CIBN/toptable_phon_CIBN.tsv)
+```
+
+```{r}
+top_pps <- cibn.data %>% 
+  dplyr::filter(ID %in% phonemesPKN$target) %>%
+  dplyr::filter(adj.P.Val < 5e-02) 
+
+write.table(top_pps,"../05_Output/CIBN/deregpps.tsv",quote=FALSE,sep='\t',row.names = FALSE)
+
+deregulated_pps <- top_pps$t
+names(deregulated_pps) <- top_pps$ID
+```
+```{r}
+deregulated_kinases_man <- c(SRC = 1)
+```
+
+```{r}
+decoupler_network <- phonemesPKN %>% 
+  dplyr::rename("mor" = interaction) %>% 
+  tibble::add_column("likelihood" = 1)
+
+decoupler_input <- cibn.data %>% 
+  dplyr::filter(ID %in% decoupler_network$target) %>%
+  dplyr::select(t)
+
+decoupler_network <- decoupleR::intersect_regulons(mat = decoupler_input, 
+                                                   network = decoupler_network, 
+                                                   .source = source, 
+                                                   .target = target, 
+                                                   minsize = 5)
+
+correlated_regulons <- decoupleR::check_corr(decoupler_network) %>% 
+  dplyr::filter(correlation >= 0.9)
+
+decoupler_network <- decoupler_network %>% 
+  dplyr::filter(!source %in% correlated_regulons$source.2)
+
+kinase_activity <- decoupleR::run_mlm(mat = decoupler_input, 
+                                      network = decoupler_network)
+
+nc_kinases <- kinase_activity %>% 
+  dplyr::filter(base::abs(score) <= 0.5) %>% 
+  dplyr::filter(source != 'SRC') %>%
+  dplyr::pull(source)
+
+```
+
+
+```{r}
+carnival_options <- PHONEMeS::default_carnival_options(solver = "cbc")
+carnival_options$solverPath <- "/usr/bin/cbc"
+carnival_options$timelimit <- 7200
+carnival_options$outputFolder <- "/home/rstudio/work/05_Output/CIBN"
+carnival_options$workdir <- "/home/rstudio/work/05_Output/CIBN"
+carnival_options$threads <- 6
+```
+
+```{r}
+phonemes_result <- PHONEMeS::run_phonemes(inputObj = deregulated_kinases_man, 
+                                          measObj = deregulated_pps, 
+                                          rmNodes = nc_kinases,
+                                          netObj = phonemesPKN,
+                                          carnival_options = carnival_options)
+```
+```{r}
+phonemes_result_pps <- PHONEMeS::reattach_psites(phonemes_result)
+```
+
+```{r}
+readr::write_csv(phonemes_result$res$weightedSIF, "../05_Output/CIBN/PHONEMeS_CIBN_20_0_SIF.csv")
+```
+
+```{r}
+phonemes_result_protein <- get_protein_network(phonemes_result)
+```
+```{r}
+readr::write_csv(phonemes_result_protein$weightedSIF, "../05_Output/PHONEMeS_protCIBN_20_0_SIF.csv")
+```
+

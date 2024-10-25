@@ -1,0 +1,7 @@
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+install.packages(c("tidyverse","devtools"))
+BiocManager::install('edgeR')
+library(devtools)
+options(timeout = 999999)
+devtools::install_github('saezlab/PHONEMeS')

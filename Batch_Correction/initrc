@@ -1,0 +1,4 @@
+pushd ..
+source initrc
+popd
+export PROJECT_PATH=$PROJECT_PATH"/Batch_Correction"

@@ -1,0 +1,7 @@
+pushd ..
+source initrc
+popd
+export PROJECT_PATH=$PROJECT_PATH"/Annotation"
+rm 00_InputData
+rm 01_Reference
+rm 05_Output
