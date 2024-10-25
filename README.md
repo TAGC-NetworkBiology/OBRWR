@@ -4,7 +4,7 @@ This is the github repository for the Optimally Biased Random Walk with Restart 
 Find here the corresponding data folder (NODES_RAWDATA & NODES_Project_Zenodo).
 The containers mount volumes based on the similar arborescence of NODES_Project_Zenodo and this repository.
 
-All containers provide either JupyterLab or Rstudio, when run a container you will be able to access it through\\
+All containers provide either JupyterLab or Rstudio: when you are running a container you will be able to access it through\\
 your favorite web-browser at the adress :
 
 localhost:XXXX where XXXX is the port defined in the docker.sh 
