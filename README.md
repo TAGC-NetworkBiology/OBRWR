@@ -26,9 +26,9 @@ foo@bar:$ docker load < <file>.tar
 We define environment variables in the initrc at the root of the repository:
 ```
 export ROOT_PROJECT_PATH="/mnt/project/NODES/NODES_Project_Zenodo" <-- path to root of data folder
-export PATH_WORKSPACE="/mnt/project/NODES/NODES_Workspace_git" <------ path to here
+export PATH_WORKSPACE="/mnt/project/NODES/OBRWR" <-------------------- path to here
 export PATH_OBRWR="${PATH_WORKSPACE}/obrwr_python" <------------------ you should not have to touch this
-export PROJECT_PATH=$ROOT_PROJECT_PATH <------------------------------ neither this 
+export PROJECT_PATH=$ROOT_PROJECT_PATH <------------------------------ nor this
 ```
 Please make sure the paths are set as necessary.
 We assume a Unix system is being used.
