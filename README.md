@@ -60,7 +60,7 @@ It then waits a bit (sleep 1s).
 
 And then asks the container to display the url where the server is accessible.
 
-We can go ahead and run both initrc to set the paths and :
+We can go ahead and run both initrc and docker.sh :
 ```console
 foo@bar:$ source initrc
 foo@bar:$ sh docker.sh
@@ -68,6 +68,9 @@ http://aaaaaaaaa:YYYY/?token=##LONGTOKEN##
 ```
 The url displayed here is from the point of view of the container. We really just need the token.
 In your browser access :
+
 localhost:XXXX/?token=##LONGTOKEN##
 
-And you will have a working environment to run the different notebooks/Rmarkdown files in 03_scripts.
+Where XXXX is defined in docker.sh.
+
+And you will have a working environment to run the different notebooks/Rmarkdown files in 03_scripts folder.
