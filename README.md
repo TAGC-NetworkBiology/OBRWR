@@ -9,25 +9,28 @@ your favorite web-browser at the adress :
 
 localhost:XXXX where XXXX is the port defined in the docker.sh 
 
-We define environment variables in the initrc at the root [here]:
-Please make sure the paths are set as necessary.
-We assume a Unix system is being used.
+
 
 ## Docker
 The only dependency is Docker.
 See https://docs.docker.com/engine/install/
 
 ## Importing container images
-In order to run the containers you will have to import the images from ./container_images
+In order to run the containers you will have to import the images from NODES_Project_Zenodo/container_images
 
 ```console
 foo@bar:$ docker load < <file>.tar
 ```
 
-## Running a particular container
-In the appropriate folders we will give the instructions to run the containers.
+## Root initrc
+We define environment variables in the initrc at the root [here]:
+Please make sure the paths are set as necessary.
+We assume a Unix system is being used.
+All other initrc should not be modified.
 
-From a folder with 00_InputData,...,06_Documentation : have a look at docker.sh
+## Running a particular container
+From a folder with a docker.sh/docker_method.sh and initrc.\\
+Take a look at docker.sh
 ```console
 foo@bar:$ cat docker.sh
 sudo docker run -dp 8892:8888 \
@@ -44,7 +47,7 @@ sleep 1s
 sudo docker exec jup-highs-cibnos jupyter server list
 ```
 The docker.sh bash script defines:
-  - The port mapping -dp XXXX:YYYY
+  - The port mapping -dp XXXX:YYYY (remember the XXXX)
   - The folders which should be mounted as volumes -v
     
         - the $PROJECT_PATH and $PATH_OBRWR environment variables will be set by sourcing the local initrc
