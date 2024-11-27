@@ -11,7 +11,7 @@ https://zenodo.org/records/14228715
 
 **TO RUN PHONEMeS**
 
-1) The **hpn* docker image should be loaded (see README at root of repository).
+1) The **hpn** docker image should be loaded (see README at root of repository).
 2) Make sure the CIBNvsOS is accessible in the corresponding Project folder
 3) And that the initrc at the root of this workspace is instantiated (see README at root of this repository)
 4) **here** define the environment variables : source initrc 
