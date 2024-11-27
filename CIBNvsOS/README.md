@@ -17,6 +17,9 @@ https://doi.org/10.5281/zenodo.14228715
 4) **here** define the environment variables : source initrc 
 5) and after conveniently changing the **docker_PHONEMeS.sh** file (see README at root of this repository) : sh docker_PHONEMeS.sh
 
+The username in the docker is "rstudio".
+Password is "pwdroot", can be changed in the **docker_PHONEMeS.sh**.
+
 **For both**
 
 6) You should now be able to access the jupyter/R studio at the defined localhost:XXXX in your browser.
