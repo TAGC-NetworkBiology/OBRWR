@@ -1,5 +1,5 @@
 You can find the corresponding datafolder here :
-https://zenodo.org/records/14228715
+https://doi.org/10.5281/zenodo.14228715
 
 **TO RUN OBRWR**
 
