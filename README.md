@@ -1,7 +1,8 @@
 # OBRWR
 
 This is the github repository for the Optimally Biased Random Walk with Restart Workspace.
-Find here the corresponding data folder (NODES_RAWDATA & NODES_Project_Zenodo).
+Find here the corresponding data folder NODES_Project_Zenodo : https://doi.org/10.5281/zenodo.13992420.
+You can also download data-subfolders instead of the whole folders (referenced in each folder of this repository and at the end of this README)
 The containers mount volumes based on the similar arborescence of NODES_Project_Zenodo and this repository.
 
 All containers provide either JupyterLab or Rstudio: when you are running a container you will be able to access it through\\
@@ -17,7 +18,8 @@ See https://docs.docker.com/engine/install/
 
 ## Importing container images
 In order to run the containers you will have to import the images from NODES_Project_Zenodo/container_images.
-Can be downloaded here : https://zenodo.org/records/14228563
+Is found in the whole data folder : https://doi.org/10.5281/zenodo.13992420
+Can be downloaded independently here : https://doi.org/10.5281/zenodo.14228563
 
 ```console
 foo@bar:$ docker load < <file>.tar
