@@ -18,7 +18,7 @@ https://doi.org/10.5281/zenodo.14228936
 5) and after conveniently changing the **docker_PHONEMeS.sh** file (see README at root of this repository) : sh docker_PHONEMeS.sh
 
 The username in the docker is "rstudio".
-Password is "pwdroot".
+Password is "pwdroot", can be changed in **docker_PHONEMeS.sh**.
 
 **For both**
 
