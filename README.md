@@ -16,7 +16,8 @@ The only dependency is Docker.
 See https://docs.docker.com/engine/install/
 
 ## Importing container images
-In order to run the containers you will have to import the images from NODES_Project_Zenodo/container_images
+In order to run the containers you will have to import the images from NODES_Project_Zenodo/container_images.
+Can be downloaded here : https://zenodo.org/records/14228563
 
 ```console
 foo@bar:$ docker load < <file>.tar
