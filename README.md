@@ -90,3 +90,10 @@ Then this should do it, where the docker_name is defined in docker.sh:
 foo@bar:$ sudo docker exec docker_name jupyter server list
 http://aaaaaaaaa:YYYY/?token=##LONGTOKEN##
 ```
+
+## Data Downloads
+
+- Whole dataset : https://doi.org/10.5281/zenodo.14228715
+- Docker Images : https://doi.org/10.5281/zenodo.14228563
+- CIBNvsOS : https://doi.org/10.5281/zenodo.14228715
+- 
