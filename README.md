@@ -96,4 +96,6 @@ http://aaaaaaaaa:YYYY/?token=##LONGTOKEN##
 - Whole dataset : https://doi.org/10.5281/zenodo.14228715
 - Docker Images : https://doi.org/10.5281/zenodo.14228563
 - CIBNvsOS : https://doi.org/10.5281/zenodo.14228715
-- 
+- HPN-DREAM : https://doi.org/10.5281/zenodo.14228935
+- Annotation : https://doi.org/10.5281/zenodo.14265393
+- Batch Effect : https://doi.org/10.5281/zenodo.14265546
